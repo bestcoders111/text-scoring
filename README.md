@@ -52,7 +52,7 @@ Automatic Evaluation Metric described in the paper [BERTScore: Evaluating Text G
   - Including the script for tuning the best number of layers of an English pre-trained model on WMT16 to-English data (See the [details](tune_layers)).
 - Updated to version 0.3.2
   - **Bug fixed**: fixing the bug in v0.3.1 when having multiple reference sentences.
-  - Supporting multiple reference sentences with our command line tool.
+  - Supporting multiple reference sentences with our command line tool
 - Updated to version 0.3.1
   - A new `BERTScorer` object that caches the model to avoid re-loading it multiple times. Please see our [jupyter notebook example](./example/Demo.ipynb) for the usage.
   - Supporting multiple reference sentences for each example. The `score` function now can take a list of lists of strings as the references and return the score between the candidate sentence and its closest reference sentence.
