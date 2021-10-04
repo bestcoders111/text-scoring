@@ -17,7 +17,7 @@ Automatic Evaluation Metric described in the paper [BERTScore: Evaluating Text G
   - Add Turkish BERT Supoort ([#108](https://github.com/Tiiiger/bert_score/issues/108)).
 - Updated to version 0.3.9
   - Support 3 BigBird models
-  - Fix bugs for mBART and T5
+  - Fix bugs for mBART and T5 Model.
   - Support 4 mT5 models as requested ([#93](https://github.com/Tiiiger/bert_score/issues/93))
 - Updated to version 0.3.8
   - Support 53 new pretrained models including BART, mBART, BORT, DeBERTa, T5, BERTweet, MPNet, ConvBERT, SqueezeBERT, SpanBERT, PEGASUS, Longformer, LED, Blendbot, etc. Among them, DeBERTa achives higher correlation with human scores than RoBERTa (our default) on WMT16 dataset. The correlations are presented in this [Google sheet](https://docs.google.com/spreadsheets/d/1RKOVpselB98Nnh_EOC4A2BYn8_201tmPODpNWu4w7xI/edit?usp=sharing).
