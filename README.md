@@ -44,7 +44,7 @@ Automatic Evaluation Metric described in the paper [BERTScore: Evaluating Text G
   - Being compatible with Huggingface's transformers >=v3.0.0 and minor fixes ([#58](https://github.com/Tiiiger/bert_score/pull/58), [#66](https://github.com/Tiiiger/bert_score/pull/66), [#68](https://github.com/Tiiiger/bert_score/pull/68))
   - Several improvements related to efficency ([#67](https://github.com/Tiiiger/bert_score/pull/67), [#69](https://github.com/Tiiiger/bert_score/pull/69))
 - Updated to version 0.3.4
-  - Compatible with transformers v2.11.0 now (#58)
+  - Compatible with transformers v2.11.0 now 
 - Updated to version 0.3.3
   - Fixing the bug with empty strings [issue #47](https://github.com/Tiiiger/bert_score/issues/47).
   - Supporting 6 [ELECTRA](https://github.com/google-research/electra) models and 24 smaller [BERT](https://github.com/google-research/bert) models.
